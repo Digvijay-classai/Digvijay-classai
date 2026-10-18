@@ -7,6 +7,22 @@ earn their place, and an evaluation behind every model claim.
 
 **Portfolio:** [djcrafted.com](https://djcrafted.com) · [LinkedIn](https://www.linkedin.com/in/digvijaykhasa/)
 
+**[voiceops](https://github.com/digvijaysingh-ai/voiceops)**: the deployment kit I extracted from
+Slotback: safety defaults for voice agents, a release gate, a signed audit ledger and real-call review,
+on PyPI. A second, different deployment ([claims-surge](https://github.com/digvijaysingh-ai/claims-surge))
+went live on it and passed its release gate 77 minutes after the first command, and six of its field
+findings became kit releases. [Case study](https://djcrafted.com/work/voiceops/)
+
+**[Slotback](https://github.com/digvijaysingh-ai/slotback)**: a voice agent on ElevenLabs that confirms
+hospital appointments and refills freed slots from the waiting list in the hospital's order, with a
+signed, verifiable ledger. The whole deployment: research, business case, DPIA, eval gate, real calls
+and a pilot plan. Fictional hospital, synthetic data. [Case study](https://djcrafted.com/work/slotback/)
+
+**[Spain Open Data](https://github.com/digvijaysingh-ai/spain-open-data-mcp)**: an open-source MCP server
+that answers business questions about Spain from public data (INE, OpenStreetMap): market size, income,
+competitors and rents down to the neighbourhood, every figure sourced and dated.
+[Case study](https://djcrafted.com/work/spain-open-data/)
+
 **[Licita](https://github.com/digvijaysingh-ai/licita)**: competition evidence for Spanish
 public-hospital procurement. 10 GB of PLACSP open data in a DuckDB spine of 452k lots, an expiry
 radar, peer benchmarks, and tribunal rulings structured by Mistral with strict schemas and a
@@ -22,4 +38,4 @@ an H3 grid, unit economics with downside and upside cases, ranked by payback.
 [Forward deployment for a 20-person business](https://djcrafted.com/writing/forward-deployment-small-business/) ·
 [The business case is the first prototype](https://djcrafted.com/writing/business-case-first-prototype/)
 
-Python · DuckDB · Streamlit · LLM evaluation · geospatial (H3, OSM) · TypeScript and Three.js for the web
+Python · ElevenLabs Agents · DuckDB · Streamlit · LLM evaluation · geospatial (H3, OSM) · TypeScript and Three.js for the web
